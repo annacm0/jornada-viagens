@@ -61,4 +61,13 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .destinations {
+    width: 1200px;
+  }
+   .destination-items {
+    flex-direction: row;
+  }
+}
+
 

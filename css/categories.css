@@ -30,7 +30,6 @@
   .categories .section-title {
     width: 100%;
   }
-
   .categories-cards {
     flex-direction: row;
     flex-wrap: wrap;
@@ -47,5 +46,5 @@
 @media screen and (min-width: 1440px) {
   .categories-cards .card {
     width: 280px;
-  }
+  }  
 }
