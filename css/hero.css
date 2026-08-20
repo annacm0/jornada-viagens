@@ -29,6 +29,84 @@ section.bottom-hero {
   text-align: center;
 }
 
+/* PACOTES DE VIAGENS */
+.travel-packages.hero {
+  margin-bottom: 88px;
+}
+
+.travel-packages .hero-img {
+  height: 460px;
+  background: url(../img/hero-pacote-tablet.png) no-repeat;
+  background-size: cover;
+}
+
+.travel-packages.bottom-hero .hero-img {
+  background: url(../img/bg-pacotes-bottom-hero-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.travel-packages .hero-content {
+  padding: 65px 24px;
+}
+
+.travel-packages .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+
+.travel-packages .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+
+.travel-packages .hero-content p {
+  font-size: 20px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
+/* CONTATO */
+.contact-hero .hero-img {
+  height: 460px;
+  background: url("../img/bg-contato-hero-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+section.contact-hero {
+  width: 100%;
+  margin: 0;
+}
+
+.contact-hero .hero-content {
+  padding: 81px 24px;
+}
+
+.contact-hero .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+
+.contact-hero .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+
+.contact-hero .hero-content p {
+  font-size: 20px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;

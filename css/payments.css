@@ -26,10 +26,21 @@
   grid-column: span 2;
 }
 
+/* PACOTES DE VIAGENS */
+.travel-packages.payments .content-container .image-gallery .image.first {
+  background: url(../img/pagamento.japão1.mobile.png) no-repeat;
+  background-size: cover;
+}
+.travel-packages.payments .content-container .image-gallery .image.second {
+  background: url(../img/pagamento.japão2.mobile.png) no-repeat;
+  background-size: cover;
+}
+.travel-packages.payments .content-container .image-gallery .image.thirdy {
+  background: url(../img/pagamento.japão3.mobile.png) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
-  .payments .content-container {
-    flex-direction: column;
-  }
   .payments .content-container .image-gallery .image.first {
     background: url(../img/gallery1-tablet.png) no-repeat;
     background-size: cover;
@@ -44,12 +55,25 @@
     background: url(../img/gallery3-tablet.png) no-repeat;
     background-size: cover;
   }
+
+  /* PACOTES DE VIAGENS */
+  .travel-packages.payments .content-container .image-gallery .image.first {
+    background: url(../img/pagamento.japão1.tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .travel-packages.payments .content-container .image-gallery .image.second {
+    background: url(../img/pagamento.japão2.tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .travel-packages.payments .content-container .image-gallery .image.thirdy {
+    background: url(../img/pagamento.japão3.tablet.png) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .payments .content-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
   }
   .payments .content-container .text-content {
@@ -57,6 +81,6 @@
   }
   .payments .content-container .image-gallery {
     width: 790px;
-    margin:0;
+    margin: 0;
   }
 }

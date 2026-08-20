@@ -41,17 +41,20 @@ nav {
 
 .list-links {
   list-style: none;
-  font-weight: var(--menu-text-weight);
 }
 
 .list-links li {
-  margin-bottom: 16px 0;
+  margin: 16px 0;
 }
 .list-links li a {
   color: var(--text-secondary-color);
   text-decoration: none;
   font-weight: var(--menu-text-weight);
   font-size: 24px;
+}
+
+.list-links li a.active {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {
